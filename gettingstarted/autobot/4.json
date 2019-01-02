@@ -1,0 +1,4 @@
+{
+    "11000008144" : ["permission","authenticate","credentials","critical"],
+    "verification failed" : ["verify" , "OTP"]
+}
