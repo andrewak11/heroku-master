@@ -43,7 +43,7 @@ class pi:
            
                 # sub = (ht['tickets'][0]['category'])
                 # print(sub)
-            soup = BeautifulSoup(s1, 'html5lib')
+            soup = BeautifulSoup(s1, 'html.parser')
             txt = soup.get_text(strip = True)
             #print(txt)
             return txt , s2
@@ -135,7 +135,7 @@ class pi:
                 
                 s = (cat['article']['description'])
                 #s = (cat['category']['folders']['11000057342']['articles'][0]['description'])
-                soup = BeautifulSoup(s, 'html5lib')
+                soup = BeautifulSoup(s, 'html.parser')
                 txt = str(soup.get_text(strip = True))
                 #print(txt)
                 return txt
