@@ -19,8 +19,8 @@ def main():
     #print(en_txt)
     # generate issue ID using nlp .........
     
-    #tic=tester.tic_nlp(en_txt)
-    tic = 1
+    tic=tester.tic_nlp(en_txt)
+    #tic = 1
     if tic is 1:
         issue_id = cat_nlp(en_txt)
     
