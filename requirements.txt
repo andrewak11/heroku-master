@@ -4,3 +4,8 @@ django-heroku
 requests
 googletrans
 beautifulsoup4
+nltk
+numpy
+pandas
+sklearn
+matplotlib
